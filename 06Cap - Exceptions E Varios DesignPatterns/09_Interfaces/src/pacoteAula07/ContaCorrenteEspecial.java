@@ -20,5 +20,16 @@ public final class ContaCorrenteEspecial extends ContaCorrente implements Transf
 	public double verificaSaldo(); {
 		return 0;
 	}
+	@Override
+	public boolean realizarDoc(int nrBanco, int nrAgencia, int nrConta, double valor) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean realizarTed(int nrBanco, int nrAgencia, int nrConta, double valor) {
+		// TODO Auto-generated method stub
+		return false;
+	}
 
 }
